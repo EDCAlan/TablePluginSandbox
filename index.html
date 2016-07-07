@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jquery Plugins</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="datatables/dataTables.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+
+            populateTables();
+
+            $('#datatables').DataTable();
+
+        });
+
+        function randomDate() {
+            var startDate = new Date(2012,0,1).getTime();
+            var endDate =  new Date(2015,0,1).getTime();
+            var spaces = (endDate - startDate);
+            var timestamp = Math.round(Math.random() * spaces);
+            timestamp += startDate;
+            return new Date(timestamp).toDateString();
+        }
+
+        function populateTables() {
+            $('table').each(function () {
+                var tableString = "<thead><tr><th>First</th><th>Second</th><th>Third</th><th>Fourth</th></tr></thead><tbody>";
+                for(var i = 0; i < 100; i++) {
+                    tableString += "<tr>";
+                    tableString += "<th>" + i + "name" + "</th>";
+                    tableString += "<th>" + i + "</th>";
+                    tableString += "<th>" + i + "name" + "@iscool.com</th>";
+                    tableString += "<th>" + randomDate() + "</th>";
+                    tableString += "</tr>";
+                }
+                tableString += "</tbody>";
+                $(this).html(tableString);
+            });
+        }
+
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="datatables/dataTables.min.css">
+
+</head>
+
+<body>
+
+    <h1>Original Table</h1>
+
+    <table id="original_table">
+    </table>
+
+    <hr />
+
+    <a href="https://datatables.net/" target="_blank"><h1>datatables Table</h1></a>
+
+    <table id="datatables">
+    </table>
+
+</body>
+
+</html>
