@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e61f54a7-41bb-4890-9833-099aa1a1291f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter/jquery.tablesorter.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ingrid/remote.php" afterPath="$PROJECT_DIR$/remote.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ingrid/js/jquery.ingrid.js" afterPath="$PROJECT_DIR$/ingrid/js/jquery.ingrid.js" />
     </list>
     <ignored path="TablePluginSandbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,25 +27,92 @@
     <favorites_list name="TablePluginSandbox" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="238">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+              <folding>
+                <element signature="e#837#1166#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataTables.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/datatables/dataTables.min.js">
+      <file leaf-file-name="jquery.tablesorter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tablesorter/jquery.tablesorter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            <state relative-caret-position="372">
+              <caret line="140" column="13" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="e#4276#5142#0" expanded="false" />
+                <element signature="e#5216#5307#0" expanded="false" />
+                <element signature="e#5378#5594#0" expanded="false" />
+                <element signature="e#5684#7093#0" expanded="false" />
+                <element signature="e#7173#8193#0" expanded="false" />
+                <element signature="e#8270#8341#0" expanded="false" />
+                <element signature="e#8397#8473#0" expanded="false" />
+                <element signature="e#8516#8807#0" expanded="false" />
+                <element signature="e#8873#10597#0" expanded="false" />
+                <element signature="e#10650#11618#0" expanded="false" />
+                <element signature="e#11669#13064#0" expanded="false" />
+                <element signature="e#13108#14566#0" expanded="false" />
+                <element signature="e#14791#16611#0" expanded="false" />
+                <element signature="e#16669#17327#0" expanded="false" />
+                <element signature="e#17377#17551#0" expanded="false" />
+                <element signature="e#17603#17795#0" expanded="false" />
+                <element signature="e#17855#18032#0" expanded="false" />
+                <element signature="e#18077#18293#0" expanded="false" />
+                <element signature="e#18336#18597#0" expanded="false" />
+                <element signature="e#18643#18855#0" expanded="false" />
+                <element signature="e#18899#19141#0" expanded="false" />
+                <element signature="e#19206#19716#0" expanded="false" />
+                <element signature="e#19771#20160#0" expanded="false" />
+                <element signature="e#20222#20536#0" expanded="false" />
+                <element signature="e#20628#22904#0" expanded="false" />
+                <element signature="e#22969#24153#0" expanded="false" />
+                <element signature="e#24193#24314#0" expanded="false" />
+                <element signature="e#24358#24479#0" expanded="false" />
+                <element signature="e#24522#24590#0" expanded="false" />
+                <element signature="e#24637#24705#0" expanded="false" />
+                <element signature="e#24744#24897#0" expanded="false" />
+                <element signature="e#24940#25093#0" expanded="false" />
+                <element signature="e#25135#25180#0" expanded="false" />
+                <element signature="e#25226#25271#0" expanded="false" />
+                <element signature="e#25325#25380#0" expanded="false" />
+                <element signature="e#25452#33222#0" expanded="false" />
+                <element signature="e#33271#33645#0" expanded="false" />
+                <element signature="e#33694#33747#0" expanded="false" />
+                <element signature="e#33793#33890#0" expanded="false" />
+                <element signature="e#33934#34029#0" expanded="false" />
+                <element signature="e#34079#34227#0" expanded="false" />
+                <element signature="e#34280#34648#0" expanded="false" />
+                <element signature="e#34712#34764#0" expanded="false" />
+                <element signature="e#34862#35049#0" expanded="false" />
+                <element signature="e#35070#35324#0" expanded="false" />
+                <element signature="e#35345#35586#0" expanded="false" />
+                <element signature="e#35607#36177#0" expanded="false" />
+                <element signature="e#36198#36449#0" expanded="false" />
+                <element signature="e#36470#36781#0" expanded="false" />
+                <element signature="e#36802#37041#0" expanded="false" />
+                <element signature="e#37062#37410#0" expanded="false" />
+                <element signature="e#37431#38306#0" expanded="false" />
+                <element signature="e#38326#38619#0" expanded="false" />
+                <element signature="e#38639#38955#0" expanded="false" />
+                <element signature="e#39002#39864#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="remote.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/remote.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,6 +127,9 @@
       <list>
         <option value="$PROJECT_DIR$/datatables/dtatables.min.js" />
         <option value="$PROJECT_DIR$/datatables/datatables.min.css" />
+        <option value="$PROJECT_DIR$/ingrid/js/jquery.ingrid.js" />
+        <option value="$PROJECT_DIR$/ingrid/remote.php" />
+        <option value="$PROJECT_DIR$/remote.php" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -126,7 +200,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="datatables" />
+              <option name="myItemId" value="tablesorter" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -138,6 +212,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alan\Documents\TablePluginSandbox\tablesorter" />
+      <recent name="C:\Users\Alan\Documents\TablePluginSandbox" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -155,6 +235,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -175,50 +261,82 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1467921315671</updated>
-      <workItem from="1467921317166" duration="4349000" />
+      <workItem from="1467921317166" duration="4947000" />
+      <workItem from="1467982679169" duration="7657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4349000" />
+    <option name="totallyTimeSpent" value="12604000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15059523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#837#1166#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/datatables/dataTables.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="102">
           <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -231,11 +349,109 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/datatables/dataTables.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingrid/js/jquery.ingrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="413" column="12" selection-start-line="413" selection-start-column="12" selection-end-line="413" selection-end-column="12" />
+          <folding>
+            <element signature="e#7685#9501#0" expanded="false" />
+            <element signature="e#9565#13007#0" expanded="false" />
+            <element signature="e#19049#22048#0" expanded="false" />
+            <element signature="e#22382#25084#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tablesorter/jquery.tablesorter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="140" column="13" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#4276#5142#0" expanded="false" />
+            <element signature="e#5216#5307#0" expanded="false" />
+            <element signature="e#5378#5594#0" expanded="false" />
+            <element signature="e#5684#7093#0" expanded="false" />
+            <element signature="e#7173#8193#0" expanded="false" />
+            <element signature="e#8270#8341#0" expanded="false" />
+            <element signature="e#8397#8473#0" expanded="false" />
+            <element signature="e#8516#8807#0" expanded="false" />
+            <element signature="e#8873#10597#0" expanded="false" />
+            <element signature="e#10650#11618#0" expanded="false" />
+            <element signature="e#11669#13064#0" expanded="false" />
+            <element signature="e#13108#14566#0" expanded="false" />
+            <element signature="e#14791#16611#0" expanded="false" />
+            <element signature="e#16669#17327#0" expanded="false" />
+            <element signature="e#17377#17551#0" expanded="false" />
+            <element signature="e#17603#17795#0" expanded="false" />
+            <element signature="e#17855#18032#0" expanded="false" />
+            <element signature="e#18077#18293#0" expanded="false" />
+            <element signature="e#18336#18597#0" expanded="false" />
+            <element signature="e#18643#18855#0" expanded="false" />
+            <element signature="e#18899#19141#0" expanded="false" />
+            <element signature="e#19206#19716#0" expanded="false" />
+            <element signature="e#19771#20160#0" expanded="false" />
+            <element signature="e#20222#20536#0" expanded="false" />
+            <element signature="e#20628#22904#0" expanded="false" />
+            <element signature="e#22969#24153#0" expanded="false" />
+            <element signature="e#24193#24314#0" expanded="false" />
+            <element signature="e#24358#24479#0" expanded="false" />
+            <element signature="e#24522#24590#0" expanded="false" />
+            <element signature="e#24637#24705#0" expanded="false" />
+            <element signature="e#24744#24897#0" expanded="false" />
+            <element signature="e#24940#25093#0" expanded="false" />
+            <element signature="e#25135#25180#0" expanded="false" />
+            <element signature="e#25226#25271#0" expanded="false" />
+            <element signature="e#25325#25380#0" expanded="false" />
+            <element signature="e#25452#33222#0" expanded="false" />
+            <element signature="e#33271#33645#0" expanded="false" />
+            <element signature="e#33694#33747#0" expanded="false" />
+            <element signature="e#33793#33890#0" expanded="false" />
+            <element signature="e#33934#34029#0" expanded="false" />
+            <element signature="e#34079#34227#0" expanded="false" />
+            <element signature="e#34280#34648#0" expanded="false" />
+            <element signature="e#34712#34764#0" expanded="false" />
+            <element signature="e#34862#35049#0" expanded="false" />
+            <element signature="e#35070#35324#0" expanded="false" />
+            <element signature="e#35345#35586#0" expanded="false" />
+            <element signature="e#35607#36177#0" expanded="false" />
+            <element signature="e#36198#36449#0" expanded="false" />
+            <element signature="e#36470#36781#0" expanded="false" />
+            <element signature="e#36802#37041#0" expanded="false" />
+            <element signature="e#37062#37410#0" expanded="false" />
+            <element signature="e#37431#38306#0" expanded="false" />
+            <element signature="e#38326#38619#0" expanded="false" />
+            <element signature="e#38639#38955#0" expanded="false" />
+            <element signature="e#39002#39864#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="238">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="e#837#1166#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

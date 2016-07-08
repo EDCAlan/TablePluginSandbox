@@ -7,6 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="datatables/dataTables.min.js"></script>
     <script src="ingrid/js/jquery.ingrid.js"></script>
+    <script src="tablesorter/jquery.tablesorter.js"></script>
 
 
     <script>
@@ -14,10 +15,18 @@
 
             populateTables();
 
-            $('#datatables').DataTable();
-
             $("#ingrid").ingrid({
-                height: 350
+                height: 500,
+                initialLoad: false,
+                paging: false
+            });
+
+            $("#tablesorter").tablesorter();
+
+            $('#datatables').DataTable({
+                "scrollY":        "500px",
+                "scrollCollapse": true,
+                "paging":         false
             });
 
         });
@@ -36,10 +45,10 @@
                 var tableString = "<thead><tr><th>First</th><th>Second</th><th>Third</th><th>Fourth</th></tr></thead><tbody>";
                 for(var i = 0; i < 100; i++) {
                     tableString += "<tr>";
-                    tableString += "<th>" + i + "name" + "</th>";
-                    tableString += "<th>" + i + "</th>";
-                    tableString += "<th>" + i + "name" + "@iscool.com</th>";
-                    tableString += "<th>" + randomDate() + "</th>";
+                    tableString += "<td>" + i + "name" + "</td>";
+                    tableString += "<td>" + i + "</td>";
+                    tableString += "<td>" + i + "name" + "@iscool.com</td>";
+                    tableString += "<td>" + randomDate() + "</td>";
                     tableString += "</tr>";
                 }
                 tableString += "</tbody>";
@@ -51,6 +60,7 @@
 
     <link rel="stylesheet" type="text/css" href="datatables/dataTables.min.css">
     <link rel="stylesheet" href="ingrid/css/ingrid.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="tablesorter/style.css" type="text/css"/>
 
     <style>
         *{margin:0; padding: 0;}
@@ -84,6 +94,15 @@
             margin-top:60px;
             padding:20px;
         }
+        #tablesorter th.header {
+            cursor: pointer;
+            font-weight: bold;
+            background-repeat: no-repeat;
+            background-position: center left;
+            padding-left: 20px;
+            border-right: 1px solid #dad9c7;
+            margin-left: -1px;
+        }
     </style>
 
 </head>
@@ -92,8 +111,9 @@
 
     <ul id="header">
         <li><a href="#first_table">Original Table</a></li>
-        <li><a href="#datatables">dataTables</a></li>
-        <li><a href="#ingrid">Ingrid</a></li>
+        <li><a href="#second_table">dataTables</a></li>
+        <li><a href="#third_table">Ingrid</a></li>
+        <li><a href="#fourth_table">Ingrid</a></li>
     </ul>
 
     <br />
@@ -119,6 +139,13 @@
             <a href="http://reconstrukt.com/ingrid/" target="_blank"><h1>Ingrid Table</h1></a>
 
             <table id="ingrid">
+            </table>
+        </div>
+
+        <div id="fourth_table">
+            <a href="http://tablesorter.com/docs/" target="_blank"><h1>tablesorter Table</h1></a>
+
+            <table id="tablesorter">
             </table>
         </div>
     </div>

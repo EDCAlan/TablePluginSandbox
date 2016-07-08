@@ -688,6 +688,7 @@ jQuery.fn.ingrid = function(o){
 	
 	// don't break the chain
 	// return a modified & extended jQ table object.
+	// return a modified & extended jQ table object.
 	
 	return this.each(function(tblIter){
 
