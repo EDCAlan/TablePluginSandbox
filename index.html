@@ -26,7 +26,11 @@
             $('#datatables').DataTable({
                 "scrollY":        "500px",
                 "scrollCollapse": true,
-                "paging":         false
+                "paging":         false,
+                "order": [[3,"desc"]],
+                "columnDefs": [
+                    { "width": "20%", "orderable": false, "targets": 4 }
+                ]
             });
 
         });
@@ -42,13 +46,14 @@
 
         function populateTables() {
             $('table').each(function () {
-                var tableString = "<thead><tr><th>First</th><th>Second</th><th>Third</th><th>Fourth</th></tr></thead><tbody>";
+                var tableString = "<thead><tr><th>Name</th><th>Id</th><th>Email</th><th>Date</th><th>Button</th></tr></thead><tbody>";
                 for(var i = 0; i < 100; i++) {
                     tableString += "<tr>";
                     tableString += "<td>" + i + "name" + "</td>";
                     tableString += "<td>" + i + "</td>";
                     tableString += "<td>" + i + "name" + "@iscool.com</td>";
                     tableString += "<td>" + randomDate() + "</td>";
+                    tableString += "<td>Here's some text with a button <button value='CLICK'>CLICK</button></td>";
                     tableString += "</tr>";
                 }
                 tableString += "</tbody>";
@@ -103,6 +108,19 @@
             border-right: 1px solid #dad9c7;
             margin-left: -1px;
         }
+
+        #datatables_info {
+            display: none;
+        }
+
+        .dataTable thead{
+            border-top: 1px solid #ddd;
+            background-color: rgba(195, 216, 216, 0.22);
+        }
+
+        .order-column .sorting_1{
+            background-color: #afcfcf !important;
+        }
     </style>
 
 </head>
@@ -113,7 +131,7 @@
         <li><a href="#first_table">Original Table</a></li>
         <li><a href="#second_table">dataTables</a></li>
         <li><a href="#third_table">Ingrid</a></li>
-        <li><a href="#fourth_table">Ingrid</a></li>
+        <li><a href="#fourth_table">TableSorter</a></li>
     </ul>
 
     <br />
@@ -129,7 +147,7 @@
         <div id="second_table">
             <a href="https://datatables.net/" target="_blank"><h1>dataTables Table</h1></a>
 
-            <table id="datatables">
+            <table id="datatables" class="order-column cell-border compact stripe hover">
             </table>
         </div>
 
