@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>dataTable Plugin</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="datatables/dataTables.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+
+            var table = $('#first_table table:first').DataTable({
+                "scrollY":        "500px",
+                "scrollCollapse": true,
+                "paging":         false,
+                "order": [[3,"desc"]],
+                "columnDefs": [
+                    { "width": "20%", "orderable": false, "targets": 4 },
+                    { "targets": 0, "class": "details-control"}
+                ],
+            });
+
+            $('button').click(function () {
+                $(this).siblings('.child').toggleClass('show');
+            });
+
+
+            var detailRows = [];
+            $('#first_table tbody').on( 'click', 'tr td.details-control', function () {
+                var tr = $(this).closest('tr');
+                var row = table.row( tr );
+                var idx = $.inArray( tr.attr('id'), detailRows );
+
+                if ( row.child.isShown() ) {
+                    tr.removeClass( 'details' );
+                    row.child.hide();
+
+                    // Remove from the 'open' array
+                    detailRows.splice( idx, 1 );
+                }
+                else {
+                    tr.addClass( 'details' );
+                    row.child($('#' + tr.data('detail_id')).html()).show();
+
+                    // Add to the 'open' array
+                    if ( idx === -1 ) {
+                        detailRows.push( tr.attr('id') );
+                    }
+                }
+            });
+
+        });
+
+        function randomDate() {
+            var startDate = new Date(2012,0,1).getTime();
+            var endDate =  new Date(2015,0,1).getTime();
+            var spaces = (endDate - startDate);
+            var timestamp = Math.round(Math.random() * spaces);
+            timestamp += startDate;
+            return new Date(timestamp).toDateString();
+        }
+
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="datatables/dataTables.min.css">
+    <link rel="stylesheet" href="ingrid/css/ingrid.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="tablesorter/style.css" type="text/css"/>
+
+    <style>
+        *{margin:0; padding: 0;}
+
+        #header{
+            position: fixed;
+            top:0;
+            list-style-type: none;
+            width:100%;
+            z-index:3;
+            background-color:#2F4F4F;
+        }
+        #header li{
+            float:left;
+            margin:5px 20px 5px 5px;
+            font-size: 2em;
+            text-decoration: none;
+        }
+        li a{
+            text-decoration: none;
+            color: #f9f9f9;
+        }
+
+        hr{
+            margin: 30px 0;
+            background:#2F4F4F;
+            height:20px;
+        }
+
+        #content{
+            margin-top:60px;
+            padding:20px;
+        }
+        #datatables_info {
+            display: none;
+        }
+
+        .dataTable thead{
+            border-top: 1px solid #ddd;
+            background-color: rgba(195, 216, 216, 0.22);
+        }
+
+        .order-column .sorting_1{
+            background-color: #afcfcf !important;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .show {
+            display: inherit;
+        }
+
+        .details {
+            width: 100%;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<ul id="header">
+    <li><a href="#second_table">dataTables</a></li>
+</ul>
+
+<br />
+
+<div id="content">
+    <div id="first_table">
+        <table id="original_table" class="order-column cell-border compact stripe hover">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Id</th>
+                    <th>Email</th>
+                    <th>Date</th>
+                    <th>Button</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="details" data-detail_id="num_1">
+                    <td>Alan</td>
+                    <td>1</td>
+                    <td>alan@cool.com</td>
+                    <td>01/01/2016</td>
+                    <td><button>Button</button></td>
+                </tr>
+                <tr data-detail_id="num_2">
+                    <td>Bob</td>
+                    <td>2</td>
+                    <td>Bob@cool.com</td>
+                    <td>02/01/2016</td>
+                    <td><button>Button</button></td>
+                </tr>
+                <tr data-detail_id="num_3">
+                    <td>Susan</td>
+                    <td>3</td>
+                    <td>Susan@cool.com</td>
+                    <td>03/01/2016</td>
+                    <td><button>Button</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div id="num_1" class="hidden">
+            <table>
+                <thead>
+                <tr><th>Column</th></tr>
+                </thead>
+                <tbody>
+                <tr><td>Alan's View.</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="num_2" class="hidden">
+            <table>
+                <thead>
+                <tr><th>Column</th></tr>
+                </thead>
+                <tbody>
+                <tr><td>Bob's View.</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <hr />
+</div>
+
+</body>
+
+</html>
